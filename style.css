@@ -24,7 +24,15 @@ body {
     border: 6px solid black;
 }
 
-#article {
+.grupo1 {
+    display: flex;
+}
+
+.lado-direito {
+    font-family: 'Roboto', sans-serif;
     line-height: 30px;
+}
+
+.lado-esquerdo {
     font-family: 'Roboto', sans-serif;
 }
