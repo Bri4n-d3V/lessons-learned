@@ -5,4 +5,15 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    background-color: lightseagreen;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.grupo_foto_link {
+    margin-top: 150px;
+}
+
+.grupo_foto_link #minha_foto {
+    border: 6px solid black;
 }
