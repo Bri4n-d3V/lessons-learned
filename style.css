@@ -5,15 +5,26 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-    background-color: lightseagreen;
+    background-color: darkturquoise;
     padding-left: 50px;
     padding-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#titulo {
+    font-size: 35px;
 }
 
 .grupo_foto_link {
-    margin-top: 150px;
+    margin-top: 190px;
 }
 
-.grupo_foto_link #minha_foto {
+#minha_foto {
     border: 6px solid black;
+}
+
+#article {
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
 }
