@@ -68,16 +68,24 @@ body {
 
 .lado-direito {
     line-height: 30px;
-    margin-right: 500px;
     text-align: justify;
     padding-top: 25px;
 }
 
 #aside {
         width: 30%;
-        padding-left: 15px;
-        margin-left: 15px;
-        float: right;
+        padding: 15px;
+        margin-left: 50px;
         font-style: italic;
         background-color: lightgray;
+}
+
+table, tr, td {
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 5px
+}
+
+caption {
+    background-color: white;
 }
