@@ -35,21 +35,46 @@ body {
 
 #minha_foto {
     border: 6px solid black;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     object-position: center;
+}
+
+#link_brian {
+    display: block;
+    font-family: 'Roboto', sans-serif;
 }
 
 .grupo1 {
     display: flex;
 }
 
+.lado-esquerdo {
+    font-family: 'Roboto', sans-serif;
+}
+#licoes_aprendidas {
+    margin-right: 10px;
+}
+
+#licoes_a_aprender {
+    margin-right: 50px;
+    border-right: 1px solid gray;
+    padding-right: 30px;
+}
+
 .lado-direito {
     font-family: 'Roboto', sans-serif;
     line-height: 30px;
+    margin-right: 500px;
+    text-align: justify;
 }
 
-.lado-esquerdo {
-    font-family: 'Roboto', sans-serif;
+#aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: italic;
+        background-color: lightgray;
 }
