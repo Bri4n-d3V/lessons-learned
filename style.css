@@ -29,7 +29,7 @@ body {
 }
 
 .grupo_foto_link {
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
 #minha_foto {
@@ -78,6 +78,7 @@ body {
         margin-left: 50px;
         font-style: italic;
         background-color: lightgray;
+        text-align: justify;
 }
 
 table, tr, td {
@@ -88,4 +89,15 @@ table, tr, td {
 
 caption {
     background-color: white;
+}
+
+#rodape {
+    background-color: darkturquoise;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    font-size: 13px;
 }
